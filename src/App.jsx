@@ -10,6 +10,7 @@ import NuevoCliente from './pages/NuevoCliente';
 
 
 function App() {
+  console.log(import.meta.env.VITE_API_URL);
   
 
   return (

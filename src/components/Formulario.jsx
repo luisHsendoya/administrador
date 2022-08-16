@@ -39,7 +39,7 @@ function Formulario({verCliente, cargando}) {
 
         }else{
           //nuevo registro
-          const url=`${import.meta.env.VITE_API_URL}/clientes`
+          const url=`${import.meta.env.VITE_API_URL}`
           respuesta= await fetch(url,{
             method:'POST',
             headers:{

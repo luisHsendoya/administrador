@@ -7,7 +7,7 @@ function Inicio() {
   useEffect(()=>{
     const getClienteApi=async ()=>{
       try {
-        const url= import.meta.env.VITE_API_URL;
+        const url= `${import.meta.env.VITE_API_URL}`;
         const respuesta= await fetch(url);
         const data= await respuesta.json();
         setClientes(data)
