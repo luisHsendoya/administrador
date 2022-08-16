@@ -1,0 +1,12 @@
+{
+  "clientes": [
+    {
+      "nombre": "martin",
+      "empresa": "xxx",
+      "email": "correo@gmail.com",
+      "telefono": "333333",
+      "notas": "esta es una nota",
+      "id": 1
+    }
+  ]
+}
